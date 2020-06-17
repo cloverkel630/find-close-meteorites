@@ -18,7 +18,6 @@ def get_dist(meteor):
     return meteor.get('distance', math.inf)
 
 if __name__ == '__main__':
-
     my_loc = (29.424122, -98.493628)
 
     meteor_resp = requests.get('https://data.nasa.gov/resource/y77d-th95.json')
